@@ -1,12 +1,19 @@
 import { Button } from "@/components/ui/button";
-import { FacebookIcon, InstagramIcon, LinkedInIcon, PinterestIcon, TikTokIcon, TwitterIcon } from "@/lib/assets";
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  PinterestIcon,
+  TikTokIcon,
+  TwitterIcon,
+} from "@/lib/assets";
 import Link from "next/link";
 import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="p-5">
-      <div className="bg-slate-950 dark:bg-slate-900/40 rounded-xl p-6">
+    <footer className="relative w-full md:p-6">
+      <div className="bg-slate-950 dark:bg-slate-900/40 rounded-none md:rounded-xl p-6">
         <div className="flex flex-wrap lg:gap-y-0 gap-y-8">
           <div className="lg:w-[35%] md:w-[50%] w-full lg:pr-28">
             <h1 className="text-white font-semibold text-2xl mb-4">Horizon</h1>
@@ -56,11 +63,14 @@ export const Footer = () => {
               <Button>Subscribe</Button>
             </div>
 
-            <ul className="mt-6 flex items-center justify-between gap-3">
+            <ul className="mt-6 flex flex-wrap gap-3 sm:gap-4">
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on Instagram"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <InstagramIcon className="text-white size-5" />
                 </Link>
@@ -68,7 +78,10 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on Twitter"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <TwitterIcon className="text-white size-5" />
                 </Link>
@@ -76,7 +89,10 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on Facebook"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <FacebookIcon className="text-white size-5" />
                 </Link>
@@ -84,7 +100,10 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on LinkedIn"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <LinkedInIcon className="text-white size-5" />
                 </Link>
@@ -92,7 +111,10 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on Pinterest"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <PinterestIcon className="text-white size-5" />
                 </Link>
@@ -100,7 +122,10 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="flex items-center justify-center size-12 bg-white/20 rounded-full"
+                  aria-label="Follow us on TikTok"
+                  className="flex items-center justify-center size-10 sm:size-12 bg-white/20 backdrop-blur-sm rounded-full 
+                 hover:bg-white/30 transition-all duration-300 transform hover:scale-110
+                 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-1"
                 >
                   <TikTokIcon className="text-white size-5" />
                 </Link>

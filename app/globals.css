@@ -6,6 +6,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

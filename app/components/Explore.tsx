@@ -10,7 +10,7 @@ import React from "react";
 
 export const Explore = () => {
   return (
-    <div className="relative p-10">
+    <div className="relative container">
       <div className="parent flex flex-col md:flex-row space-x-4">
         <div className="flex flex-col space-y-4 w-full md:w-[35%] h-[500px]">
           <div className="relative rounded-lg overflow-hidden h-[60%]">

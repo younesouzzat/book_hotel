@@ -2,7 +2,7 @@ import { RoomsCarousel } from "./RoomsCarousel";
 
 export default function MostVisited() {
   return (
-    <div className="relative p-10">
+    <div className="relative container">
       <h2 className="text-2xl font-semibold">
         Most visited hotel this month
       </h2>

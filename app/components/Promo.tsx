@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Promo() {
   return (
-    <div className="relative p-10">
+    <div className="relative container">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h2 className="text-2xl font-semibold">Get promo for cheaper price</h2>
         <div className="hidden md:block">

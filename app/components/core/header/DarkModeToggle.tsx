@@ -23,9 +23,9 @@ export const DarkModeToggle = () => {
   return (
     <>
         <div className="flex space-x-1 items-center">
-            <Moon className="size-5" />
+            <Moon className="size-5 text-white" />
             <Switch onClick={toggleDarkMode} />
-            <Sun className="size-5" />
+            <Sun className="size-5 text-white" />
         </div>
     </>
   );

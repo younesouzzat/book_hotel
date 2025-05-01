@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Trending() {
   return (
-    <div className="relative p-10">
+    <div className="relative container">
       <h2 className="text-2xl font-semibold">
         Top trending hotel in worldwide
       </h2>
