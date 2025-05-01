@@ -193,8 +193,8 @@ export const Header = () => {
           </div>
 
           {/* Hero content */}
-          <div className="flex-1 flex flex-col justify-end pb-4 sm:pb-6 md:pb-8 px-2 sm:px-4">
-            <div className="space-y-4 sm:space-y-6 max-w-4xl">
+          <div className="absolute bottom-2 left-0 w-full">
+            <div className="space-y-4 sm:space-y-6">
               <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
                 Find Your Best Staycation
               </h1>
